@@ -23,6 +23,8 @@ function CountDownSwitchLight() {
 
     function timerTick() {
 
+
+
         setInterval(() => {
             setTimer(timer - 1);
             if (timer == 0) {
